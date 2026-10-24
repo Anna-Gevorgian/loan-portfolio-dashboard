@@ -1,0 +1,130 @@
+
+/* ================= Dark Theme for Dash dcc Components ================= */
+
+/* Dropdowns */
+.Select-control,
+.Select-menu-outer,
+.Select-placeholder,
+.Select-value {
+    background-color: #2B2B2B !important;
+    color: #FFFFFF !important;
+    border: 1px solid #555 !important;
+    border-radius: 4px !important;
+}
+
+/* Dropdown options */
+.Select-option {
+    background-color: #2B2B2B !important;
+    color: #FFFFFF !important;
+}
+
+.Select-option.is-focused {
+    background-color: #3C3F41 !important;
+}
+
+
+/* Graphs (Plotly figures) */
+.js-plotly-plot {
+    background-color: #3C3F41 !important;
+}
+
+/* BooleanSwitch (dash_daq) */
+.daq-BooleanSwitch {
+    background-color: #2B2B2B !important;
+    color: #FFFFFF !important;
+}
+
+/* Switch handle color when ON */
+.daq-BooleanSwitch.on .daq-BooleanSwitch-handle {
+    background-color: #007bff !important;
+}
+
+/* Switch handle color when OFF */
+.daq-BooleanSwitch.off .daq-BooleanSwitch-handle {
+    background-color: #555 !important;
+}
+
+/* Labels inside Dash components */
+label, .Select-placeholder {
+    color: #FFFFFF !important;
+}
+
+/* Single-choice dropdown selected value */
+.Select-value-label {
+    color: #FFFFFF !important;   /* make selected text white */
+}
+
+/* Multi-select dropdown tags text */
+.Select-value-label > span {
+    color: #FFFFFF !important;
+}
+
+/* Optional: the "x" remove button inside multi-select tags */
+.Select-value-icon {
+    color: #FFFFFF !important;
+}
+
+/* Make sure placeholder is also visible */
+.Select-placeholder {
+    color: #AAAAAA !important;  /* slightly gray placeholder */
+}
+
+
+
+
+
+
+
+
+
+/* ------------------ DatePickerSingle & DatePickerRange ------------------ */
+.CalendarDay__default {
+    background-color: #2B2B2B !important;
+    color: #FFFFFF !important;
+    border: 1px solid #444 !important;
+}
+
+.CalendarDay__highlighted_calendar,
+.CalendarDay__selected,
+.CalendarDay__selected_span,
+.CalendarDay__selected:hover {
+    background-color: #007bff !important;
+    color: #FFFFFF !important;
+}
+
+.CalendarDay__hovered_span,
+.CalendarDay__hovered_span:hover {
+    background-color: #3C3F41 !important;
+    color: #FFFFFF !important;
+}
+
+.DateInput_input {
+    background-color: #2B2B2B !important;
+    color: #FFFFFF !important;
+    border: none !important;
+    border-bottom: 2px solid #555 !important;
+}
+
+.DateInput_input__focused {
+    border-bottom: 2px solid #007bff !important;
+}
+
+.DateRangePickerInput {
+    background-color: #2B2B2B !important;
+    border: 1px solid #555 !important;
+    border-radius: 4px !important;
+}
+
+.DateRangePickerInput_arrow_svg {
+    fill: #AAAAAA !important;
+}
+
+.DateRangePicker_picker {
+    background-color: #2B2B2B !important;
+}
+
+.DayPicker_weekHeader_li,
+.CalendarMonth_caption,
+.DayPicker_weekday {
+    color: #BBBBBB !important;
+}
